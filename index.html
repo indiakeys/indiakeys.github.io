@@ -3,7 +3,9 @@
     <head>
         <style>
             body {
-                background: rgb(125, 198, 205);
+                background: #FF69B4;
+                background-image: url("https://thumbs.dreamstime.com/z/music-note-hearts-seamless-background-26907886.jpg");
+                background-repeat: no-repeat;
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -23,12 +25,15 @@
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius:10px;
+                padding-bottom:10px;
             }
             nav header {
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
                 flex: 1;
+                padding:10px;
             }
             nav ul {
                 list-style-image: none;
@@ -46,6 +51,11 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius:10px;
+                padding-top:10px;
+            }
+            [id=main-content] {
+                padding:10px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -74,7 +84,7 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
-
+            <div id="main-content">
             <main>
                 <div class="sidebar">
                     <img src="https://pbs.twimg.com/profile_images/784761652075900928/2OcTRu7J_400x400.jpg">
@@ -93,6 +103,7 @@
                     </section>
                 </div>
             </main>
+            </div>
         </div>
     </body>
 </html>
